@@ -4,16 +4,17 @@ import ReleaseTitle from './ReleaseTitle.js';
 class ReleasesList extends Component{
 
   render(){
+
+    const titleNodes = this.props.data.map( title => {
+      return (
+        <ReleaseTitle key={title.id} name={title.name} url={title.url} />
+      )
+    })
+
     return (
-      <div>
-        <ol>
-      <ReleaseTitle />
-      <ReleaseTitle />
-      <ReleaseTitle />
-      <ReleaseTitle />
-      <ReleaseTitle />
-      </ol>
-    </div>
+        <ul className="release-list">
+          {titleNodes}
+        </ul>
     )
 
   }

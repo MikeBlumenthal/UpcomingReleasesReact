@@ -1,3 +1,15 @@
-ol {
-  list-style: disc;
+
+.release-box{
+  color: red;
+}
+
+.release-list{
+}
+
+.release-title{
+  color: green;
+}
+
+.button{
+  color: green;
 }

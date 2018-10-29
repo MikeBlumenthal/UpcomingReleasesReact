@@ -15,10 +15,10 @@ class ReleasesBox extends Component {
 
   render(){
     return (
-      <div>
+      <div className="release-box">
         <h1>Upcoming Film Releases For UK</h1>
-        <ReleasesList />
-        <MoreReleasesButton />
+        <ReleasesList data={this.state.data} />
+        <MoreReleasesButton link={this.state.link}/>
       </div>
     )
   }

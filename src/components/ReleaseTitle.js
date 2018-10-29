@@ -3,8 +3,12 @@ import React, {Component} from 'react';
 class ReleaseTitle extends Component{
 
   render(){
+
+
     return (
-      <li>TITLE</li>
+      <div className="release-title">
+        <li>TITLE</li>
+      </div>
     )
 
   }
