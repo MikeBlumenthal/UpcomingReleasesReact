@@ -5,7 +5,9 @@ class MoreReleasesButton extends Component{
   render(){
     return (
       <div className="button">
-        <h2>BUTTON</h2>
+        <a href={this.props.link}>
+          <h3>View more upcoming releases >></h3>
+        </a>
       </div>
     )
 
