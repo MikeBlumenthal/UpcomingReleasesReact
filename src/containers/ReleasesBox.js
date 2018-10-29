@@ -1,11 +1,16 @@
 import React, {Component} from 'react';
 import ReleasesList from '../components/ReleasesList.js';
 import MoreReleasesButton from '../components/MoreReleasesButton.js';
+import dataSource from '../data.js';
 
 class ReleasesBox extends Component {
 
   constructor(props){
-    super(props)
+    super(props);
+    this.state = {
+      data: dataSource,
+      link: "https://www.imdb.com/calendar/?region=gb"
+    }
   }
 
   render(){
