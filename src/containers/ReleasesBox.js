@@ -16,7 +16,7 @@ class ReleasesBox extends Component {
   render(){
     return (
       <div className="release-box">
-        <h1>Upcoming Film Releases For UK</h1>
+        <h2>Upcoming Film Releases For UK</h2>
         <ReleasesList data={this.state.data} />
         <MoreReleasesButton link={this.state.link}/>
       </div>

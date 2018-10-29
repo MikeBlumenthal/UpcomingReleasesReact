@@ -7,16 +7,25 @@ a {
   border: 3px solid black;
   padding: 10px;
   width: 50%;
+  background-color: lightgrey;
 }
 
 .release-list{
+  border-top: grey solid 1px;
+  border-bottom: grey solid 1px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .release-title{
 }
 
 .button{
+  background-color: lightblue;
   border: 3px solid black;
   padding: 10px;
-  width: 40%;
+}
+
+a, .button{
+  text-decoration: none;
 }
