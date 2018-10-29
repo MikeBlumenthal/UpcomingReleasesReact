@@ -7,7 +7,7 @@ class ReleaseTitle extends Component{
 
     return (
       <div className="release-title">
-        <li>TITLE</li>
+        <li><a href={this.props.url}>{this.props.name}</a></li>
       </div>
     )
 

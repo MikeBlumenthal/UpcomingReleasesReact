@@ -1,13 +1,15 @@
+a {
+  /* color: inherit;
+  text-decoration: inherit; */
+}
 
 .release-box{
-  color: red;
 }
 
 .release-list{
 }
 
 .release-title{
-  color: green;
 }
 
 .button{
